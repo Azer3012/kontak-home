@@ -1,0 +1,315 @@
+.container-header
+    background: #ED0C14
+    display: flex
+    width: 90%
+    margin: auto
+    .logo
+        height: 130px
+        .header-logo
+            height: 100%
+    .menu
+        display: flex
+        justify-content: flex-end
+        flex-wrap: wrap
+        align-items: center
+        .menu-items
+            margin-left: 15px
+            .menu-input
+                width: 400px
+                height: 35px
+                border: none
+                &:focus
+                    outline: none
+            .menu-btn
+                width: 100px
+                height: 35px
+                background: #323232
+                color: white
+                border: #323232
+                border: none
+                border-top-right-radius: 5px
+                border-bottom-right-radius: 5px
+                text-transform: capitalize
+                font-size: 18px
+                &:focus
+                    outline: none
+                
+
+            &:last-child
+                margin: auto
+                
+            .menu-links
+                text-decoration: none
+                color: #e4dede
+                font-size: 18px
+                text-transform: capitalize
+                &:hover
+                    color: white
+
+.container-section
+    padding: 20px 0
+    width: 90%
+    margin: auto
+    display: flex
+    justify-content: space-between
+    .section-menu
+        width: 20%
+        border: 1px solid #dddddd
+        border-radius: 5px
+        position: relative
+        
+        &:hover
+            border: 1px solid #D10000
+        .section-items
+            border-bottom: 1px solid #dddddd
+            padding: 8px
+            cursor: pointer   
+                  
+            .open-menu
+                position: absolute
+                right: 0
+                top: 0
+                display: none
+                min-width: 500px
+                justify-content: space-around
+                transform: translate(100%)
+                border: 1px solid #D10000
+                height: 332px
+                background: white
+                transition: 0.5s
+                
+            &:hover
+                .open-menu
+                    display: flex
+                    z-index: 1
+                    
+                        
+                
+                .open-items
+                    display: flex
+                    flex-direction: column
+                    color: #D10000
+                    font-family: inherit
+                    font-size: 18px
+                    font-weight: 400
+                    text-transform: capitalize
+                    padding: 10px 5px
+                    .open-links
+                        font-size: 15px
+                        padding: 5px
+                        color: black
+                        align-items: center
+                        justify-content: center
+                        &:hover
+                            color: #D10000
+                            
+
+                
+            &:hover
+                background: #D10000
+                .section-links
+                    color: white
+                
+            .section-links
+                text-decoration: none
+                color: black
+                text-transform: capitalize
+                font-size: 13px
+                font-weight: bold
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+#carouselExampleIndicators
+    width: 600px
+    height: 332px
+    background: white
+    z-index: -1
+    .circle
+        background: gray
+        width: 15px
+        height: -30px !important
+        border-radius: 50%
+    .active
+        background: red
+.mebel
+    height: 332px
+    img
+        height: 100%
+.pay-online
+    background: #FFE033
+    margin: auto
+    width: 50%
+    text-align: center
+    padding: 15px
+    .pay-text
+        font-size: 32px
+        padding: 15px 10px
+        text-decoration: none
+        text-transform: capitalize
+        color: black
+        i
+            margin-left: 10px
+.container-product
+    width: 90%
+    margin: auto
+    .col
+        border: 1px solid #dddddd
+        position: relative
+        margin: 5px
+        border-radius: 8px
+        &:hover
+            border: 1px solid #dd4449
+        .product-img
+            height: 140px
+            display: block
+            text-align: center
+            .product-img-item
+                height: 100%
+        .daire
+            background: #ED0C14
+            color: white
+            border: 1px solid #ED0C14
+            position: absolute
+            right: 5%
+            top: 5%
+            width: 65px
+            height: 65px
+            text-align: center
+            font-size: 12px
+            display: flex
+            align-items: center
+            border-radius: 50%
+        .product-links
+            text-align: center
+            display: block
+            padding: 15px
+        .product-percent
+            background: #ED0C14
+            color: white
+            width: 50%
+            border: 1px solid #ED0C14
+            border-radius: 7px
+            font-weight: bold
+            font-size: 15px
+            margin-bottom: 10px
+            padding: 8px 0
+        .get
+            background: #008000
+            color: white
+            position: absolute
+            right: 10%
+            bottom: 5%
+            text-decoration: none
+            font-size: 14px
+            font-weight: bold
+            padding: 8px
+            border: 1px solid #008000
+            border-radius: 5px
+            
+        .product-price
+            font-weight: bold
+            padding: 18px 0
+            font-size: 22px
+            margin-top: 10px 0
+            display: block
+.container-footer
+    width: 90%
+    margin: auto
+    display: flex
+    flex-direction: column
+    .footer-sup
+        background: #424343
+        display: flex
+        justify-content: space-evenly
+        align-items: flex-start
+        .footer-item
+            .footer-title
+                color: white
+                padding: 10px
+                font-size: 22px
+                text-transform: capitalize
+            .footer-menu
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                .footer-menu-item
+                    margin: 5px
+                    .footer-menu-links
+                        color: white
+                        font-size: 14px
+                        text-transform: capitalize
+                        i
+                            margin-right: 5px
+        
+        
+    .footer-sub
+        background: #E92429
+        padding: 15px 0
+        .copy
+            color: white
+            margin-left: 10px
+.row
+    margin-left: 0 !important
+    margin-right: 0 !important
+    //esas sehife bitti
+
+.about //haqqimizda
+    width: 75%
+    .about-title
+        font-size: 30px
+        text-transform: capitalize
+        padding: 10px 0
+    .about-text
+        font-size: 14px
+        text-align: left
+        text-align: justify
+        margin-bottom: 10px
+    .span-text
+        font-weight: bold
+        font-size: 22px
+
+//kampaniyalar
+.kampaniya-hr
+    width: 90%
+    margin-top: 40px
+.kampaniya-container
+    display: flex
+    justify-content: space-between
+    width: 90%
+    margin: auto
+    position: relative
+    .kampaniya-img
+        width: 203px
+        height: 203px
+        .kampaniya-img-item
+            width: 100%
+            height: 100%
+    .kampaniya-text
+        width: 75%
+        .kampaniya-date
+            text-decoration: underline
+        .kampaniya-title
+            font-weight: 600
+            font-size: 18px
+            padding: 10px 0
+        .kampaniya-inner
+            font-size: 15px
+            padding: 10px 0
+        .kampaniya-links
+            position: absolute
+            bottom: 30px
+            right: 30px
+
+
+        
+
+   
+    
+    
+        
+
+        
+
+                    
+
+                
+                
+        
